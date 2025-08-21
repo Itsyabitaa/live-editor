@@ -5,7 +5,9 @@ const DocumentPage = () => {
     return (
         <>
             <Header>
-                <h1>hello</h1>
+                <div className='flex w-fit items-center justify-center gap-2'>
+                    <p className='document-title'>static tytle</p>
+                </div>
             </Header>
             <Editor />
         </>
