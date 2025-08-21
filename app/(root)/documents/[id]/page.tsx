@@ -1,9 +1,14 @@
 import React from 'react'
 import { Editor } from '@/components/editor/Editor'
-
+import Header from '@/components/Header'
 const DocumentPage = () => {
     return (
-        <Editor />
+        <>
+            <Header>
+                <h1>hello</h1>
+            </Header>
+            <Editor />
+        </>
     )
 }
 
