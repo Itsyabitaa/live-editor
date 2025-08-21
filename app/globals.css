@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "../styles/light-theme.css";
+@import "../styles/dark-theme.css";
+
 :root {
   --background: #09111f;
   --foreground: #ffffff;
