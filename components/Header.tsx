@@ -8,7 +8,7 @@ type HeaderProps = {
 
 const Header = ({ children }: HeaderProps) => {
     return (
-        <div className='Header'>
+        <div className='Header flex items-center justify-between'>
             <Link href='/' className='md:flex-1'>
                 <Image
                     src="/assets/icons/logo.svg"
